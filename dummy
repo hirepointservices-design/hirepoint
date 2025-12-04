@@ -1,0 +1,99 @@
+<footer class="footer"> 
+    <!-- Start Footer Top -->
+    <div class="container">
+        <div class="row row1">
+            <div class="col-sm-12 clearfix">
+                <div class="foot-nav">
+                    <h3>About US</h3>
+                    <ul style="display: block;">
+                        <li><a href="https://yashas.asia/Journey_of_YasHas">Journey of YasHas</a></li>
+                            <li><a href="https://yashas.asia/Vision_Statement">Vision Statement</a></li>
+                            <li><a href="https://yashas.asia/Organization_Structure">Organization Structure</a></li>
+                            <li><a href="https://yashas.asia/MD_Profile">MD Profile</a></li>
+                    </ul>
+                </div>
+                <div class="foot-nav">
+                    <h3>Training &amp; Development</h3>
+                    <ul style="display: block;">
+                        <li><a href="https://yashas.asia/Training_Development">Overview</a></li>
+                        <!--<li><a href="Events_&_Workshops.html">Events & Workshops</a></li>-->
+                    </ul>
+                </div>
+                <div class="foot-nav">
+                    <h3>Staffing</h3>
+                    <ul style="display: block;">
+                        <li><a href="https://yashas.asia/Permanent_Staffing">Permanent Staffing</a></li>
+                        <li><a href="https://yashas.asia/contract_staffing">Contract Staffing</a></li>
+                    </ul>
+                </div>
+                <div class="foot-nav">
+                    <h3>Organisational Development</h3>
+                    <ul style="display: block;">
+                        <li><a href="https://yashas.asia/Organisational_Development">Overview</a></li>
+                            <li><a href="https://yashas.asia/Thomas_Assessments">Thomas Assessments</a></li>
+                    </ul>
+                </div>
+                <div class="foot-nav">
+                    <h3>National Apprenticeship Training (NAPS)</h3>
+                    <ul style="display: block;">
+                        <li><a href="#exampleModal" data-toggle="modal" data-target="#exampleModal">Brochure</a></li>
+                    </ul>
+                    <br>
+                    <h3> National Apprenticeship Training Scheme (NATS)</h3>
+                    <ul style="display: block;">
+                        <li><a href="#exampleModal2" data-toggle="modal" data-target="#exampleModal2">Brochure</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Footer Top --> 
+    <!-- Start Footer Bottom -->
+    <div class="bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="connect-us">
+                        <h3>Connect with Us</h3>
+                        <ul class="follow-us clearfix">
+                            <li><a href="https://www.facebook.com/profile.php?id=100009297887874" target="_blank">
+                            <i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="https://in.linkedin.com/in/chandrashekher-shetty-k-727b7310" target="_blank">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="subscribe">
+                        <h3>Subscribe  with Us</h3>
+                        <!-- Begin MailChimp Signup Form -->
+                        <div id="mc_embed_signup">
+                            <form action="//protechtheme.us16.list-manage.com/subscribe/post?u=cd5f66d2922f9e808f57e7d42&amp;id=ec6767feee" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+                                <div id="mc_embed_signup_scroll">
+                                    <input type="email" name="EMAIL" class="email" id="mce-EMAIL" placeholder="enter your email address" required="">
+                                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                        <input type="text" name="b_cd5f66d2922f9e808f57e7d42_ec6767feee" tabindex="-1">
+                                    </div>
+                                    <div class="clear">
+                                        <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!--End mc_embed_signup--> 
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                <ul class="terms clearfix">
+                    <li><a href="https://yashas.asia/privacypolicy">PRIVACY POLICY</a></li>
+                </ul>
+                <p>&nbsp;</p>
+                <p>© 2019 <span>YasHas</span>. All rights reserved</p>
+                
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Footer Bottom --> 
+    </footer>

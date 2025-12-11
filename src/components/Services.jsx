@@ -3,142 +3,116 @@ import React, { useState } from "react";
 const Icon = ({ name }) => {
   if (name === "naps")
     return (
-      <svg width="40" height="40" viewBox="0 0 24 24">
-        <rect width="24" height="24" rx="6" fill="#0b6d6f" />
-        <path d="M6 12h12" stroke="#fff" strokeWidth="1.5" />
+      <svg width="24" height="24" viewBox="0 0 24 24">
+        <rect width="24" height="24" rx="6" fill="#fff" />
       </svg>
     );
   if (name === "nats")
     return (
-      <svg width="40" height="40" viewBox="0 0 24 24">
-        <circle cx="12" cy="12" r="10" fill="#0b6d6f" />
-        <path d="M8 12h8" stroke="#fff" strokeWidth="1.5" />
+      <svg width="24" height="24" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="10" fill="#fff" />
       </svg>
     );
-  return (
-    <svg width="40" height="40" viewBox="0 0 24 24">
-      <rect width="24" height="24" rx="6" fill="#0b6d6f" />
-    </svg>
-  );
+  return null;
 };
 
-export default function Services() {
-  const [open, setOpen] = useState(null);
+export default function ServicesNavbar() {
+  const [openDropdown, setOpenDropdown] = useState(null);
 
   const services = [
     {
       key: "about",
       title: "About HirePoint",
-      desc: "HirePoint offers apprenticeship programs",
-      color: "#f58022",
+      color: "bg-orange-500 hover:bg-orange-600",
       submenu: [
-        { text: "Journey of HirePoint", link: "#" },
-        { text: "Vision Statement", link: "#" },
-        { text: "Organization Structure", link: "#" },
-        { text: "MD Profile", link: "#" },
+        { text: "Journey of HirePoint", link: "/Journey" },
+        { text: "Vision Statement", link: "/Vision" },
+        { text: "Organization Structure", link: "/OrganisationStructure" },
       ],
     },
-
     {
       key: "naps",
       title: "National Apprenticeship Training (NAPS)",
-      desc: "Industry-ready apprenticeship skills.",
-      color: "#c62750",
+      color: "bg-pink-600 hover:bg-pink-700",
       modal: "napsModal",
     },
-
     {
       key: "nats",
       title: "National Apprenticeship Training Scheme (NATS)",
-      desc: "Government-aligned training pathways.",
-      color: "#79c04e",
+      color: "bg-green-500 hover:bg-green-600",
       modal: "natsModal",
     },
-
     {
       key: "training",
       title: "Training & Development",
-      desc: "Short & long-term modules.",
-      color: "#999999",
+      color: "bg-gray-500 hover:bg-gray-600",
       submenu: [
-        { text: "Training Overview", link: "https://yashas.asia/Training_Development" },
+        { text: "Training Overview", link: "/TrainingOverview" },
       ],
     },
-
     {
       key: "staffing",
       title: "Staffing",
-      desc: "Recruitment and placement services.",
-      color: "#6595ce",
+      color: "bg-blue-500 hover:bg-blue-600",
       submenu: [
-        { text: "Permanent Staffing", link: "https://yashas.asia/Permanent_Staffing" },
-        { text: "Contract Staffing", link: "https://yashas.asia/contract_staffing" },
+        { text: "Permanent Staffing", link: "/PermanentStaffing" },
+        { text: "Contract Staffing", link: "/ContractStaffing" },
       ],
     },
-
     {
       key: "od",
       title: "Organisational Development",
-      desc: "HR & OD interventions.",
-      color: "#8ebe3e",
+      color: "bg-lime-500 hover:bg-lime-600",
       submenu: [
-        { text: "Overview", link: "https://yashas.asia/Organisational_Development" },
-        { text: "Thomas Assessments", link: "https://yashas.asia/Thomas_Assessments" },
+        { text: "Overview", link: "/Organisational_Development" },
+        { text: "Thomas Assessments", link: "/ThomasAssessments" },
       ],
     },
   ];
 
   return (
-    <section id="services" className="py-10">
-      <h2 className="text-2xl font-bold mb-6">Our Services</h2>
+    <header className="bg-white shadow">
+      <nav className="container mx-auto px-4">
+        <ul className="flex space-x-2">
+          {services.map((s) => (
+            <li
+              key={s.key}
+              className={`relative ${s.color} rounded-md`}
+              onMouseEnter={() => setOpenDropdown(s.key)}
+              onMouseLeave={() => setOpenDropdown(null)}
+            >
+              {s.modal ? (
+                <a
+                  href={`#${s.modal}`}
+                  className="block px-4 py-2 text-white font-semibold cursor-pointer"
+                >
+                  {s.title}
+                </a>
+              ) : (
+                <button className="block px-4 py-2 text-white font-semibold cursor-pointer">
+                  {s.title}
+                </button>
+              )}
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-
-        {services.map((s) => (
-          <div
-            key={s.key}
-            className="p-6 rounded-2xl shadow cursor-pointer"
-            style={{ background: s.color }}
-            onClick={() => setOpen(open === s.key ? null : s.key)}
-          >
-            <div className="flex items-center gap-4 mb-3">
-              <Icon name={s.key} />
-              <h3 className="font-semibold text-lg text-white">{s.title}</h3>
-            </div>
-
-            <p className="text-white opacity-90">{s.desc}</p>
-
-            {/* Dropdown / Modal Window */}
-            {open === s.key && (
-              <div className="mt-4 bg-white text-black p-4 rounded-xl shadow-lg animate-fadeIn">
-                {/* If submenu exists */}
-                {s.submenu && (
-                  <ul className="space-y-2">
-                    {s.submenu.map((m, i) => (
-                      <li key={i}>
-                        <a href={m.link} className="text-blue-600 underline">
-                          {m.text}
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-                )}
-
-                {/* If modal-type service */}
-                {s.modal && (
-                  <div className="text-sm">
-                    <p className="mb-2 font-semibold">More details coming soon…</p>
-                    <button className="bg-black text-white px-4 py-1 rounded">
-                      Open Window
-                    </button>
-                  </div>
-                )}
-              </div>
-            )}
-          </div>
-        ))}
-
-      </div>
-    </section>
+              {/* Dropdown menu */}
+              {s.submenu && openDropdown === s.key && (
+                <ul className="absolute left-0 mt-1 bg-white shadow-lg rounded-md z-50 w-48">
+                  {s.submenu.map((item, i) => (
+                    <li key={i} className="border-b last:border-b-0">
+                      <a
+                        href={item.link}
+                        className="block px-4 py-2 text-gray-800 hover:bg-gray-100 transition"
+                      >
+                        {item.text}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </li>
+          ))}
+        </ul>
+      </nav>
+    </header>
   );
 }

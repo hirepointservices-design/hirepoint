@@ -10,10 +10,9 @@ export default function Footer() {
         <div>
           <h3 className="font-bold text-lg mb-3">About Us</h3>
           <ul className="space-y-2 text-slate-300 text-sm">
-            <li><a href="https://yashas.asia/Journey_of_YasHas" className="hover:text-white">Journey of YasHas</a></li>
-            <li><a href="https://yashas.asia/Vision_Statement" className="hover:text-white">Vision Statement</a></li>
-            <li><a href="https://yashas.asia/Organization_Structure" className="hover:text-white">Organization Structure</a></li>
-            <li><a href="https://yashas.asia/MD_Profile" className="hover:text-white">MD Profile</a></li>
+            <li><a className="hover:text-white">Journey of YasHas</a></li>
+            <li><a className="hover:text-white">Vision Statement</a></li>
+            <li><a className="hover:text-white">Organization Structure</a></li>
           </ul>
         </div>
 
@@ -21,7 +20,7 @@ export default function Footer() {
         <div>
           <h3 className="font-bold text-lg mb-3">Training & Development</h3>
           <ul className="space-y-2 text-slate-300 text-sm">
-            <li><a href="https://yashas.asia/Training_Development" className="hover:text-white">Overview</a></li>
+            <li><a className="hover:text-white">Overview</a></li>
           </ul>
         </div>
 
@@ -29,8 +28,8 @@ export default function Footer() {
         <div>
           <h3 className="font-bold text-lg mb-3">Staffing</h3>
           <ul className="space-y-2 text-slate-300 text-sm">
-            <li><a href="https://yashas.asia/Permanent_Staffing" className="hover:text-white">Permanent Staffing</a></li>
-            <li><a href="https://yashas.asia/contract_staffing" className="hover:text-white">Contract Staffing</a></li>
+            <li><a className="hover:text-white">Permanent Staffing</a></li>
+            <li><a className="hover:text-white">Contract Staffing</a></li>
           </ul>
         </div>
 
@@ -38,8 +37,8 @@ export default function Footer() {
         <div>
           <h3 className="font-bold text-lg mb-3">Organisational Development</h3>
           <ul className="space-y-2 text-slate-300 text-sm">
-            <li><a href="https://yashas.asia/Organisational_Development" className="hover:text-white">Overview</a></li>
-            <li><a href="https://yashas.asia/Thomas_Assessments" className="hover:text-white">Thomas Assessments</a></li>
+            <li><a className="hover:text-white">Overview</a></li>
+            <li><a className="hover:text-white">Thomas Assessments</a></li>
           </ul>
         </div>
 

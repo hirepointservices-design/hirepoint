@@ -7,7 +7,7 @@ import Services from "./components/Services";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
-import Journey from "./pages/journey"; // Ensure filename has capital J
+import Journey from "./pages/Journey"; // Ensure filename has capital J
 import Vision from "./pages/Vision";   // Your new Vision page
 import OrganisationStructure from "./pages/OrganisationStructure"; 
 import TrainingOverview from "./pages/TrainingOverview";

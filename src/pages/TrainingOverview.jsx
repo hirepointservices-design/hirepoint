@@ -1,5 +1,5 @@
 import React from "react";
-import heroImg from "/assets/train_overview.webp"; // <-- update path based on your project
+import heroImg from "/assets/train_overview.jpg"; // <-- update path based on your project
 
 export default function TrainingOverview() {
   return (

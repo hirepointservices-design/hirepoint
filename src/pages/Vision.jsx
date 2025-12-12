@@ -1,5 +1,5 @@
 import React from "react";
-import visionImg from "/assets/vision.webp"; // ← update path if needed
+import visionImg from "/assets/vision.jpg"; // ← update path if needed
 
 export default function VisionMission() {
   return (

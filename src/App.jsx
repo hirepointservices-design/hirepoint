@@ -37,7 +37,7 @@ export default function App() {
         <Route path="/contact" element={<Contact />} />
 
         {/* Journey Page */}
-        <Route path="/journey" element={<Journey />} />
+        <Route path="/Journey" element={<Journey />} />
 
         {/* Vision Page */}
         <Route path="/vision" element={<Vision />} />

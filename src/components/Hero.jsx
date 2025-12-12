@@ -21,7 +21,7 @@ export default function Hero(){
     <section
       id="home"
       className="relative bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: `url('/assets/h3.avif')` }}
+      style={{ backgroundImage: `url('/assets/main_pic.jpg')` }}
     >
       {/* Overlay for better readability */}
       <div className="absolute inset-0 bg-black/40"></div>

@@ -1,5 +1,5 @@
 import React from "react";
-// import heroImg from "/assets/thomas_assessments.webp"; // Optional hero image
+// import heroImg from "/images/thomas_assessments.jpg"; // Optional hero image
 
 export default function ThomasAssessments() {
   return (

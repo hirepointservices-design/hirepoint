@@ -9,7 +9,7 @@ export default function Navbar() {
         {/* LOGO */}
         <div className="flex items-center gap-3">
           <img
-            src="hirepointimage.avif"
+            src="hirepointimage.jpg"
             alt="HirePoint Logo"
             className="w-12 h-12 rounded-lg object-cover"
           />

@@ -1,5 +1,5 @@
 import React from "react";
-import heroImg from "/assets/contract_staffing.jpg"; // update path if needed
+import heroImg from "/images/contract_staffing.jpg"; // update path if needed
 
 export default function ContractStaffing() {
   return (

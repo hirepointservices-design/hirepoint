@@ -1,5 +1,5 @@
 import React from "react";
-import heroImg from "/assets/permanent_staffing.jpg"; // update path if needed
+import heroImg from "/images/permanent_staffing.jpg"; // update path if needed
 
 export default function PermanentStaffing() {
   return (

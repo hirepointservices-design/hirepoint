@@ -1,5 +1,5 @@
 import React from "react";
-import orgImg from "/assets/organisation.jpg";  // <- rename image after placing in public/assets
+import orgImg from "/images/organisation.jpg";  // <- rename image after placing in public/assets
 
 export default function OrganisationStructure() {
   return (

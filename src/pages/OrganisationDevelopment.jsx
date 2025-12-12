@@ -1,5 +1,5 @@
 import React from "react";
-import heroImg from "/assets/organisation_development.jpg"; // update path if needed
+import heroImg from "/images/organisation_development.jpg"; // update path if needed
 
 export default function OrganisationDevelopment() {
   return (

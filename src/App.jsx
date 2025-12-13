@@ -34,13 +34,13 @@ export default function App() {
           }
         />
 
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/Contact" element={<Contact />} />
 
         {/* Journey Page */}
         <Route path="/Journey" element={<Journey />} />
 
         {/* Vision Page */}
-        <Route path="/vision" element={<Vision />} />
+        <Route path="/Vision" element={<Vision />} />
         <Route path="/OrganisationStructure" element={<OrganisationStructure />} />
         <Route path="/TrainingOverview" element={<TrainingOverview />} />
         <Route path="/PermanentStaffing" element={<PermanentStaffing />} /> 

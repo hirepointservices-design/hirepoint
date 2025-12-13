@@ -4,10 +4,27 @@ import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 
 const slides = [
-  { id:1, title:'Skill-based Training', subtitle:'Industry aligned programs for employability'},
-  { id:2, title:'Apprenticeship Programs', subtitle:'NAPS & NATS registered training'},
-  { id:3, title:'Placement Support', subtitle:'We connect learners to employers'},
-]
+  {
+    id: 1,
+    img: "/images/slide1.jpg",
+    title: "Skill-based Training",
+    subtitle: "Industry aligned programs for employability"
+  },
+  {
+    id: 2,
+    img: "/images/slide2.jpg",
+    title: "Apprenticeship Programs",
+    subtitle: "NAPS & NATS registered training"
+  },
+  {
+    id: 3,
+    img: "/images/slide3.jpg",
+    title: "Placement Support",
+    subtitle: "We connect learners to employers"
+  }
+];
+
+
 
 export default function Hero(){
   const [index, setIndex] = useState(0)

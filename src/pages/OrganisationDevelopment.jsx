@@ -1,5 +1,4 @@
 import React from "react";
-import heroImg from "/images/organisation_development.jpg"; // update path if needed
 
 export default function OrganisationDevelopment() {
   return (
@@ -8,7 +7,7 @@ export default function OrganisationDevelopment() {
       {/* HERO IMAGE */}
       <div className="w-full flex justify-center py-10">
         <img
-          src={heroImg}
+          src="/images/organisation_development.jpg" 
           alt="Organisational Development"
           className="max-w-xs md:max-w-md drop-shadow-xl"
         />

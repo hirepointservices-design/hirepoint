@@ -1,19 +1,8 @@
 import React from "react";
-// import heroImg from "/images/thomas_assessments.jpg"; // Optional hero image
 
 export default function ThomasAssessments() {
   return (
     <section className="w-full">
-
-      {/* OPTIONAL HERO IMAGE 
-      <div className="w-full flex justify-center py-10">
-        <img
-          src={heroImg}
-          alt="Thomas Assessments"
-          className="max-w-xs md:max-w-md drop-shadow-xl"
-        />
-      </div>
-      */}
 
       <div className="max-w-6xl mx-auto px-6 py-12 leading-relaxed text-slate-800">
 

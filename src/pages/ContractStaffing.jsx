@@ -1,5 +1,4 @@
 import React from "react";
-import heroImg from "/images/contract_staffing.jpg"; // update path if needed
 
 export default function ContractStaffing() {
   return (
@@ -8,7 +7,7 @@ export default function ContractStaffing() {
       {/* HERO IMAGE */}
       <div className="w-full flex justify-center py-10">
         <img
-          src={heroImg}
+          src="/images/contract_staffing.jpg" 
           alt="Contract Staffing"
           className="max-w-xs md:max-w-md drop-shadow-xl"
         />

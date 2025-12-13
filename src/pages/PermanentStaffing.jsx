@@ -1,5 +1,4 @@
 import React from "react";
-import heroImg from "/images/permanent_staffing.jpg"; // update path if needed
 
 export default function PermanentStaffing() {
   return (
@@ -8,7 +7,7 @@ export default function PermanentStaffing() {
       {/* HERO IMAGE */}
       <div className="w-full flex justify-center py-10">
         <img
-          src={heroImg}
+          src="/images/permanent_staffing.jpg" 
           alt="Permanent Staffing"
           className="max-w-xs md:max-w-md drop-shadow-xl"
         />

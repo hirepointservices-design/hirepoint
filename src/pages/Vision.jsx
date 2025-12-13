@@ -1,7 +1,6 @@
 import React from "react";
-import visionImg from "/images/vision.jpg"; // ← update path if needed
 
-export default function VisionMission() {
+export default function Vision() {
   return (
     <section className="max-w-6xl mx-auto px-6 py-16">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
@@ -31,7 +30,7 @@ export default function VisionMission() {
         {/* RIGHT IMAGE */}
         <div className="flex justify-center">
           <img
-            src={visionImg}
+            src="/images/vision.jpg"
             alt="Vision and Mission Illustration"
             className="max-w-full md:max-w-[400px] drop-shadow-lg"
           />

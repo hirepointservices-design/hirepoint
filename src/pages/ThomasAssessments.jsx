@@ -19,29 +19,27 @@ export default function ThomasAssessments() {
         </h2>
 
         <p className="mb-4">
-          Personal Profile Analysis (PPA) provides an accurate insight into how people behave at work,
-          answering questions such as: What are their strengths and limitations? How do they communicate?
-          Are they self-starters? What motivates them?
+          Personal Profile Analysis (PPA) provides clear insights into how individuals behave at work,
+          helping understand their strengths, communication style, motivations, and potential limitations.
         </p>
 
         <p className="mb-4">
-          PPA helps leaders reduce time spent on underperformers by clearly identifying strengths,
-          pressure behavior, communication style, motivation levels and areas for improvement.
-          It takes only 8 minutes to complete and instantly provides 18 additional detailed reports
-          covering recruitment, coaching, development and job matching.
+          PPA allows HR and managers to identify high-potential talent efficiently, reducing time spent
+          on underperformers. It takes only 8 minutes to complete and generates detailed reports covering
+          recruitment, coaching, development, and job alignment.
         </p>
 
         <ul className="list-disc pl-6 space-y-2 mb-4">
           <li>Recruit the right person</li>
-          <li>Improve communication</li>
+          <li>Enhance communication</li>
           <li>Motivate and engage staff</li>
-          <li>Identify areas for development</li>
-          <li>Manage performance</li>
+          <li>Identify areas for growth</li>
+          <li>Manage performance effectively</li>
         </ul>
 
         <p className="font-semibold mt-4">Note:</p>
         <ul className="list-disc pl-6 mt-2 space-y-2">
-          <li>A) Administering PPA Psychometric Test + Soft Copy Report – <strong>₹3999 + GST</strong></li>
+          <li>A) Administering PPA Test + Soft Copy Report – <strong>₹3999 + GST</strong></li>
           <li>B) Interpretation + One-to-One Coaching – <strong>₹2500 + GST</strong></li>
         </ul>
 
@@ -54,16 +52,15 @@ export default function ThomasAssessments() {
         </h2>
 
         <p className="mb-4">
-          The General Intelligence Assessment (GIA) is a cognitive ability assessment that predicts
-          how quickly a person can adapt to new tasks or roles. It measures mental speed, learning
-          ability, problem-solving capability and adaptability. GIA takes about 40 minutes to complete.
+          The General Intelligence Assessment (GIA) evaluates cognitive ability, adaptability, learning speed,
+          problem-solving skills, and mental agility. It helps identify high-potential candidates for critical roles.
         </p>
 
         <ul className="list-disc pl-6 space-y-2 mb-4">
           <li>Measure mental capacity and adaptability</li>
-          <li>Identify high-potential leaders</li>
-          <li>Understand how to develop people through training</li>
-          <li>Ensure individuals are challenged appropriately</li>
+          <li>Identify high-potential talent</li>
+          <li>Guide development through training</li>
+          <li>Ensure challenges are aligned with skills</li>
         </ul>
 
         <p className="font-semibold mt-4">Note:</p>
@@ -81,14 +78,11 @@ export default function ThomasAssessments() {
         </h2>
 
         <p className="mb-4">
-          The High Potential Trait Indicator (HPTI) identifies leadership potential by measuring
-          traits aligned with senior-level positions. It is based on an “optimality model” which
-          evaluates how well an individual’s personality fits high-demand leadership roles.
-          HPTI takes 8–10 minutes to complete.
+          The HPTI identifies leadership potential by assessing traits required for senior-level roles.
+          It evaluates personality alignment with high-demand positions and takes 8–10 minutes to complete.
         </p>
 
         <p className="mb-2 font-semibold">Traits Measured:</p>
-
         <ul className="list-disc pl-6 space-y-2 mb-4">
           <li>Conscientiousness</li>
           <li>Adjustment</li>
@@ -113,17 +107,17 @@ export default function ThomasAssessments() {
         </h2>
 
         <p className="mb-4">
-          TEIQue measures a person’s emotional intelligence — understanding and managing their own
-          emotions as well as interpreting the emotions of others. It reveals how well individuals
-          build relationships, handle pressure, and adapt to change. TEIQue takes 20 minutes to complete.
+          TEIQue measures emotional intelligence, helping individuals understand and manage their own emotions
+          while interpreting the emotions of others. It supports better relationship management, engagement,
+          and leadership skills. Completion takes about 20 minutes.
         </p>
 
         <ul className="list-disc pl-6 space-y-2 mb-4">
-          <li>Understand emotions + relationship management</li>
-          <li>Recruit emotionally intelligent candidates</li>
-          <li>Foster engagement and loyalty</li>
-          <li>Strengthen communication</li>
-          <li>Improve leadership and management skills</li>
+          <li>Understand emotions and relationship management</li>
+          <li>Recruit emotionally intelligent talent</li>
+          <li>Enhance engagement and retention</li>
+          <li>Improve communication</li>
+          <li>Strengthen leadership and management abilities</li>
         </ul>
 
         <p className="font-semibold mt-4">Note:</p>

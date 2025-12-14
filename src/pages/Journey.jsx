@@ -6,50 +6,95 @@ export default function Journey() {
       <h1 className="text-4xl font-bold mb-6">Our Journey</h1>
 
       <p className="mb-4 leading-relaxed">
-        Overcoming challenges has provided a greater platform for us to grow in
-        spite of market turbulence. We have endeavoured to narrow the
-        difference between demand and supply. Together with an experienced team,
-        we have met with customer expectations with skill and dexterity.
+        The journey of HirePoint Services has been shaped by resilience,
+        adaptability, and a clear focus on bridging the gap between talent
+        demand and supply. Navigating through evolving market dynamics, we
+        have consistently transformed challenges into opportunities for
+        growth and innovation.
       </p>
 
       <p className="mb-4 leading-relaxed">
-        Growing through the years has given us a wider perspective of the
-        business and helped us build trust and credibility with our
-        stakeholders.
+        Backed by an experienced and passionate team, HirePoint Services has
+        delivered reliable recruitment, training, and workforce solutions
+        with precision and integrity. Our growth over the years has broadened
+        our perspective, strengthened our capabilities, and enabled us to
+        build lasting trust with clients, candidates, and partners.
       </p>
 
       <h2 className="text-2xl font-bold mt-8 mb-4">Our journey entails</h2>
 
       <ul className="list-disc pl-6 space-y-2">
-        <li>Building bonds of healthy collaboration between clients and stakeholders.</li>
-        <li>Networking and connecting all the related people.</li>
-        <li>Reflecting on processes and providing continuous improvement to meet expectations.</li>
-        <li>Renewing and upgrading Knowledge, Skills and Technology to help live up to all challenges.</li>
-        <li>Collaborating with top Indian & Multinational companies.</li>
-        <li>Carving out a niche in the field of HR and making our stakeholders look up to us.</li>
-        <li>Moving ahead with a firm belief and commitment to deliver and perform.</li>
+        <li>
+          Building strong and ethical collaborations with clients, partners,
+          and stakeholders.
+        </li>
+        <li>
+          Connecting organizations with the right talent through effective
+          networking and engagement.
+        </li>
+        <li>
+          Continuously reviewing and refining processes to exceed service
+          expectations.
+        </li>
+        <li>
+          Upgrading Knowledge, Skills, and Technology to stay aligned with
+          industry demands.
+        </li>
+        <li>
+          Partnering with leading Indian and multinational organizations
+          across sectors.
+        </li>
+        <li>
+          Establishing HirePoint Services as a trusted name in staffing,
+          training, and HR solutions.
+        </li>
+        <li>
+          Moving forward with an unwavering commitment to delivery,
+          performance, and quality.
+        </li>
       </ul>
 
       <p className="mt-6 leading-relaxed">
-        The values we follow are the Pillars of Trust, Integrity, Commitment,
-        Respect and Competitiveness. These help face competition and have
-        brought us “Good fame - YasHas” and “Triumph” at every stage.
+        The foundation of HirePoint Services is built on the core values of
+        Trust, Integrity, Commitment, Respect, and Competitiveness. These
+        principles guide our decisions, strengthen our relationships, and
+        empower us to perform with consistency and credibility in a highly
+        competitive environment.
       </p>
 
       <h2 className="text-2xl font-bold mt-10 mb-4">Our Success</h2>
 
       <ul className="list-disc pl-6 space-y-2">
-        <li>Providing respectable employment to thousands of employees with top Indian and MNC organisations.</li>
-        <li>Enhancing professional support through strategic HR advice.</li>
-        <li>Training thousands of people and bringing clarity as Life Coaches and Mentors.</li>
-        <li>Helping individuals overcome inadequacies and become valuable contributors.</li>
-        <li>Creating satisfied customers and adding multifold value to organisations.</li>
-        <li>Bringing fame, credibility and success to all our stakeholders.</li>
+        <li>
+          Enabling meaningful and respectable employment opportunities across
+          diverse industries.
+        </li>
+        <li>
+          Supporting organizations with strategic staffing and HR advisory
+          solutions.
+        </li>
+        <li>
+          Training and mentoring individuals to enhance employability and
+          professional confidence.
+        </li>
+        <li>
+          Helping candidates bridge skill gaps and become productive
+          contributors.
+        </li>
+        <li>
+          Delivering measurable value and satisfaction to our client
+          organizations.
+        </li>
+        <li>
+          Building long-term credibility, success, and growth for all our
+          stakeholders.
+        </li>
       </ul>
 
       <p className="mt-6 leading-relaxed font-semibold">
-        We continue to walk with great Honour, Perseverance and Joy on the Path
-        to Enduring Success and Glory… to ‘YasHas’.
+        With Honour, Perseverance, and Purpose, HirePoint Services continues
+        its journey towards sustainable growth and enduring success — staying
+        true to our promise to Recruit, Train, and Deploy with excellence.
       </p>
     </section>
   );

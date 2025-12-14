@@ -7,7 +7,7 @@ export default function OrganisationDevelopment() {
       {/* HERO IMAGE */}
       <div className="w-full flex justify-center py-10">
         <img
-          src="/images/organisation_development.jpg" 
+          src="/images/organisation_development.jpg"
           alt="Organisational Development"
           className="max-w-xs md:max-w-md drop-shadow-xl"
         />
@@ -21,33 +21,33 @@ export default function OrganisationDevelopment() {
         </h1>
 
         <p className="mb-4">
-          Organisational Development is a planned, systematic approach to improved organisational 
-          effectiveness – one that aligns strategy, people and process.
+          HirePoint Services approaches Organisational Development (OD) as a strategic and systematic 
+          methodology to enhance business effectiveness. We align strategy, people, and processes to 
+          ensure optimal organisational performance.
         </p>
 
         <p className="mb-4">
-          Organisational Development enables an organisation to be prepared for the future by creating 
-          an environment where employees can understand, embody, and deliver the organisation’s 
-          objectives. OD involves both “hard” elements — strategy, policies, structures and systems — 
-          and “soft” elements that develop skills, behaviours, attitudes, culture, and leadership styles 
-          that drive optimum performance.
+          Our OD initiatives prepare organisations for future challenges by fostering a culture where 
+          employees understand and deliver on organisational objectives. We focus on both “hard” 
+          elements—policies, structure, and systems—and “soft” elements—skills, behaviours, culture, 
+          and leadership styles—to drive performance and engagement.
         </p>
 
         {/* SERVICES */}
         <h2 className="text-2xl font-bold mt-10 mb-4 text-[var(--HirePoint-teal)]">
-          Our Services
+          Our Organisational Development Services
         </h2>
 
         <ul className="list-disc pl-6 space-y-2">
-          <li>Organisation Health Survey</li>
-          <li>Organisation Restructuring</li>
-          <li>Compensation and Benefit Survey</li>
-          <li>Assessment Centres</li>
-          <li>Formulation of Performance Management Systems</li>
-          <li>Formulation of HR Policies & Processes</li>
-          <li>Employee Engagement Initiatives</li>
+          <li>Organisational Health Survey & Diagnostics</li>
+          <li>Organisational Restructuring & Change Management</li>
+          <li>Compensation and Benefits Benchmarking</li>
+          <li>Assessment Centres & Talent Evaluation</li>
+          <li>Designing Performance Management Systems</li>
+          <li>Formulating HR Policies & Processes</li>
+          <li>Employee Engagement & Motivation Programs</li>
           <li>Drafting and Certification of Standing Orders</li>
-          <li>Human Resources Advisory Services</li>
+          <li>Human Resources Advisory & Strategic Consulting</li>
         </ul>
 
       </div>

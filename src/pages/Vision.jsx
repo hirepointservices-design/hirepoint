@@ -30,7 +30,7 @@ export default function Vision() {
         {/* RIGHT IMAGE */}
         <div className="flex justify-center">
           <img
-            src="/images/vision.jpg"
+            src="/images/vision.png"
             alt="Vision and Mission Illustration"
             className="max-w-full md:max-w-[400px] drop-shadow-lg"
           />

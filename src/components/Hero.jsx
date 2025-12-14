@@ -65,12 +65,12 @@ export default function Hero(){
                     Apply Now
                   </Link>
 
-                  <a
-                    href="#services"
+                  <Link
+                    to="/services"
                     className="px-5 py-3 rounded-md border border-white text-white font-semibold"
                   >
                     Our Programs
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div>

@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { FaInstagram } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -10,9 +12,9 @@ export default function Footer() {
         <div>
           <h3 className="font-bold text-lg mb-3">About Us</h3>
           <ul className="space-y-2 text-slate-300 text-sm">
-            <li><a className="hover:text-white">Journey of YasHas</a></li>
-            <li><a className="hover:text-white">Vision Statement</a></li>
-            <li><a className="hover:text-white">Organization Structure</a></li>
+            <li><Link to="/Journey" className="hover:text-white">Journey of HirePoint</Link></li>
+            <li><Link to="/Vision" className="hover:text-white">Vision Statement</Link></li>
+            <li><Link to="/OrganisationStructure" className="hover:text-white">Organization Structure</Link></li>
           </ul>
         </div>
 
@@ -20,7 +22,7 @@ export default function Footer() {
         <div>
           <h3 className="font-bold text-lg mb-3">Training & Development</h3>
           <ul className="space-y-2 text-slate-300 text-sm">
-            <li><a className="hover:text-white">Overview</a></li>
+            <li><Link to="/TrainingOverview" className="hover:text-white">Overview</Link></li>
           </ul>
         </div>
 
@@ -28,8 +30,8 @@ export default function Footer() {
         <div>
           <h3 className="font-bold text-lg mb-3">Staffing</h3>
           <ul className="space-y-2 text-slate-300 text-sm">
-            <li><a className="hover:text-white">Permanent Staffing</a></li>
-            <li><a className="hover:text-white">Contract Staffing</a></li>
+            <li><Link to="/PermanentStaffing" className="hover:text-white">Permanent Staffing</Link></li>
+            <li><Link to="/ContractStaffing" className="hover:text-white">Contract Staffing</Link></li>
           </ul>
         </div>
 
@@ -37,8 +39,8 @@ export default function Footer() {
         <div>
           <h3 className="font-bold text-lg mb-3">Organisational Development</h3>
           <ul className="space-y-2 text-slate-300 text-sm">
-            <li><a className="hover:text-white">Overview</a></li>
-            <li><a className="hover:text-white">Thomas Assessments</a></li>
+            <li><Link to="/OrganisationDevelopment" className="hover:text-white">Overview</Link></li>
+            <li><Link to="/ThomasAssessments" className="hover:text-white">Thomas Assessments</Link></li>
           </ul>
         </div>
 
@@ -46,12 +48,12 @@ export default function Footer() {
         <div>
           <h3 className="font-bold text-lg mb-3">National Apprenticeship Training (NAPS)</h3>
           <ul className="space-y-2 text-slate-300 text-sm">
-            <li><a href="#exampleModal" className="hover:text-white">Brochure</a></li>
+            <li><Link to="" href="#exampleModal" className="hover:text-white">Brochure</Link></li>
           </ul>
 
           <h3 className="font-bold text-lg mt-4 mb-3">National Apprenticeship Training Scheme (NATS)</h3>
           <ul className="space-y-2 text-slate-300 text-sm">
-            <li><a href="#exampleModal2" className="hover:text-white">Brochure</a></li>
+            <li><Link to="" href="#exampleModal2" className="hover:text-white">Brochure</Link></li>
           </ul>
         </div>
       </div>
@@ -64,28 +66,24 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold mb-3">Connect with Us</h3>
             <div className="flex gap-4 text-xl">
+              {/* Instagram */}
               <a
-                href="https://www.facebook.com/profile.php?id=100009297887874"
+                href="https://www.instagram.com/hirepointservices"
                 target="_blank"
-                className="hover:text-blue-400"
+                rel="noopener noreferrer"
+                className="hover:text-pink-500"
               >
-                <i className="fa fa-facebook"></i>
-              </a>
-              <a
-                href="https://in.linkedin.com/in/chandrashekher-shetty-k-727b7310"
-                target="_blank"
-                className="hover:text-blue-300"
-              >
-                <i className="fa fa-linkedin"></i>
+                <FaInstagram />
               </a>
             </div>
           </div>
+
 
           {/* SUBSCRIBE */}
           <div>
             <h3 className="font-semibold mb-3">Subscribe with Us</h3>
             <form
-              action="//protechtheme.us16.list-manage.com/subscribe/post?u=cd5f66d2922f9e808f57e7d42&amp;id=ec6767feee"
+              action=""
               method="post"
               target="_blank"
               className="flex"
@@ -108,12 +106,12 @@ export default function Footer() {
 
           {/* PRIVACY + COPYRIGHT */}
           <div className="text-sm text-slate-300">
-            <a
-              href="https://yashas.asia/privacypolicy"
+            <Link
+              to="/services"
               className="hover:text-white"
             >
               PRIVACY POLICY
-            </a>
+            </Link>
 
             <p className="mt-4">
               © {new Date().getFullYear()} <span className="font-bold">HirePoint</span>. All rights reserved.

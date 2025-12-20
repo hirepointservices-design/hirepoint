@@ -21,19 +21,14 @@ export default function ServicesNavbar() {
       title: "National Apprenticeship Training (NAPS)",
       color: "bg-pink-600 hover:bg-pink-700",
       modal: "naps",
-      images: [
-        "/images/napbrochure1.png",
-        "/images/napbrochure2.jpg",
-        "/images/napbrochure3.jpg",
-        // "/images/napbrochure4.jpg",
-      ],
+      pdfUrl: "/pdf/NAT.pdf",
     },
     {
       key: "nats",
       title: "National Apprenticeship Training Scheme (NATS)",
       color: "bg-green-500 hover:bg-green-600",
       modal: "nats",
-      pdfUrl: "/pdf/nats.pdf", // PDF placed in public folder
+      pdfUrl: "/pdf/NAT.pdf", // PDF placed in public folder
     },
     {
       key: "training",
@@ -108,7 +103,7 @@ export default function ServicesNavbar() {
       {modalOpen.naps && (
         <Modal
           title="National Apprenticeship Training (NAPS)"
-          images={services.find((s) => s.key === "naps").images}
+          pdfUrl={services.find((s) => s.key === "naps").pdfUrl}
           isOpen={modalOpen.naps}
           setIsOpen={(val) => setModalOpen({ ...modalOpen, naps: val })}
         />

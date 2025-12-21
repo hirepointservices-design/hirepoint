@@ -21,14 +21,14 @@ export default function ServicesNavbar() {
       title: "National Apprenticeship Training (NAPS)",
       color: "bg-pink-600 hover:bg-pink-700",
       modal: "naps",
-      pdfUrl: "/pdf/NAT.pdf",
+      pdfUrl: "/pdf/nats.pdf",
     },
     {
       key: "nats",
       title: "National Apprenticeship Training Scheme (NATS)",
       color: "bg-green-500 hover:bg-green-600",
       modal: "nats",
-      pdfUrl: "/pdf/NAT.pdf", // PDF placed in public folder
+      pdfUrl: "/pdf/nats.pdf", // PDF placed in public folder
     },
     {
       key: "training",

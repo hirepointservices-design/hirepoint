@@ -5,97 +5,84 @@ export default function Journey() {
     <section className="max-w-6xl mx-auto px-6 py-16">
       <h1 className="text-4xl font-bold mb-6">Our Journey</h1>
 
-      <p className="mb-4 leading-relaxed">
-        The journey of HirePoint Services has been shaped by resilience,
-        adaptability, and a clear focus on bridging the gap between talent
-        demand and supply. Navigating through evolving market dynamics, we
-        have consistently transformed challenges into opportunities for
-        growth and innovation.
+      <p className="mb-6 leading-relaxed">
+        Hire Point Services is a dynamic and reliable service-oriented company
+        committed to delivering high-quality staffing and business support
+        solutions. We specialize in connecting skilled professionals with
+        organizations that value efficiency, integrity, and growth. Our
+        client-centric approach ensures customized solutions that align with
+        business objectives and workforce needs.
       </p>
 
-      <p className="mb-4 leading-relaxed">
-        Backed by an experienced and passionate team, HirePoint Services has
-        delivered reliable recruitment, training, and workforce solutions
-        with precision and integrity. Our growth over the years has broadened
-        our perspective, strengthened our capabilities, and enabled us to
-        build lasting trust with clients, candidates, and partners.
+      <h2 className="text-2xl font-bold mt-8 mb-4">Our Mission</h2>
+      <p className="mb-6 leading-relaxed">
+        To provide dependable, innovative, and cost-effective recruitment and
+        support services that help businesses grow while creating meaningful
+        career opportunities for individuals.
       </p>
 
-      <h2 className="text-2xl font-bold mt-8 mb-4">Our journey entails</h2>
+      <h2 className="text-2xl font-bold mt-8 mb-4">Our Vision</h2>
+      <p className="mb-6 leading-relaxed">
+        To become a trusted industry leader recognized for excellence in talent
+        solutions, service quality, and long-term partnerships.
+      </p>
 
-      <ul className="list-disc pl-6 space-y-2">
-        <li>
-          Building strong and ethical collaborations with clients, partners,
-          and stakeholders.
-        </li>
-        <li>
-          Connecting organizations with the right talent through effective
-          networking and engagement.
-        </li>
-        <li>
-          Continuously reviewing and refining processes to exceed service
-          expectations.
-        </li>
-        <li>
-          Upgrading Knowledge, Skills, and Technology to stay aligned with
-          industry demands.
-        </li>
-        <li>
-          Partnering with leading Indian and multinational organizations
-          across sectors.
-        </li>
-        <li>
-          Establishing HirePoint Services as a trusted name in staffing,
-          training, and HR solutions.
-        </li>
-        <li>
-          Moving forward with an unwavering commitment to delivery,
-          performance, and quality.
-        </li>
+      <h2 className="text-2xl font-bold mt-10 mb-4">Our Services</h2>
+      <ul className="list-disc pl-6 space-y-2 mb-6">
+        <li>Recruitment & Staffing Solutions</li>
+        <li>Permanent & Temporary Staffing</li>
+        <li>Contract & Project-Based Hiring</li>
+        <li>Payroll & HR Support Services</li>
+        <li>Workforce Management Solutions</li>
+        <li>Business Support & Consulting Services</li>
+        <li>Apprenticeship (NAPS & Non NAPS)</li>
       </ul>
 
-      <p className="mt-6 leading-relaxed">
-        The foundation of HirePoint Services is built on the core values of
-        Trust, Integrity, Commitment, Respect, and Competitiveness. These
-        principles guide our decisions, strengthen our relationships, and
-        empower us to perform with consistency and credibility in a highly
-        competitive environment.
-      </p>
-
-      <h2 className="text-2xl font-bold mt-10 mb-4">Our Success</h2>
-
-      <ul className="list-disc pl-6 space-y-2">
-        <li>
-          Enabling meaningful and respectable employment opportunities across
-          diverse industries.
-        </li>
-        <li>
-          Supporting organizations with strategic staffing and HR advisory
-          solutions.
-        </li>
-        <li>
-          Training and mentoring individuals to enhance employability and
-          professional confidence.
-        </li>
-        <li>
-          Helping candidates bridge skill gaps and become productive
-          contributors.
-        </li>
-        <li>
-          Delivering measurable value and satisfaction to our client
-          organizations.
-        </li>
-        <li>
-          Building long-term credibility, success, and growth for all our
-          stakeholders.
-        </li>
+      <h2 className="text-2xl font-bold mt-10 mb-4">
+        Why Choose Hire Point Services
+      </h2>
+      <ul className="list-disc pl-6 space-y-2 mb-6">
+        <li>Experienced recruitment professionals</li>
+        <li>Customized solutions for every client</li>
+        <li>Strong talent screening and selection process</li>
+        <li>Timely delivery and ethical practices</li>
+        <li>Focus on long-term partnerships</li>
       </ul>
 
-      <p className="mt-6 leading-relaxed font-semibold">
-        With Honour, Perseverance, and Purpose, HirePoint Services continues
-        its journey towards sustainable growth and enduring success — staying
-        true to our promise to Recruit, Train, and Deploy with excellence.
-      </p>
+      <h2 className="text-2xl font-bold mt-10 mb-4">Our Values</h2>
+      <ul className="list-disc pl-6 space-y-2 mb-6">
+        <li>Integrity & Transparency</li>
+        <li>Commitment to Quality</li>
+        <li>Customer Satisfaction</li>
+        <li>Professional Excellence</li>
+        <li>Continuous Improvement</li>
+      </ul>
+
+      <h2 className="text-2xl font-bold mt-10 mb-4">
+        Industries We Serve
+      </h2>
+      <ul className="list-disc pl-6 space-y-2 mb-6">
+        <li>Corporate & Commercial Enterprises</li>
+        <li>IT & Technology</li>
+        <li>Manufacturing & Operations</li>
+        <li>Sales & Marketing</li>
+        <li>Administration & Support Services</li>
+        <li>Startups & SMEs</li>
+      </ul>
+
+      <h2 className="text-2xl font-bold mt-10 mb-4">Our Strengths</h2>
+      <ul className="list-disc pl-6 space-y-2">
+        <li>Wide talent network</li>
+        <li>Efficient hiring processes</li>
+        <li>Industry expertise</li>
+        <li>Responsive client support</li>
+      </ul>
+      <div class="mt-16 text-center">
+        <p class="inline-block bg-indigo-50 px-6 py-3 rounded-full text-lg font-semibold text-indigo-700 shadow-sm">
+          Connecting Talent. Empowering Businesses. Driving Workforce Excellence.
+        </p>
+      </div>
+
     </section>
   );
 }
